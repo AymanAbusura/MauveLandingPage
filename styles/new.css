@@ -508,6 +508,21 @@ body::-webkit-scrollbar {
     color: #b3b5be;
 }
 
+.faq_buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.faq_buttons button {
+    background: #d6dae447;
+    transition: all 0.3s ease;
+}
+
+.faq_buttons button:hover {
+    background: #5A72CB;
+    color: #fff;
+}
+
 /* CAROUSEL SECTION */
 .review-wrapper {
     width: 100%;
@@ -1053,6 +1068,10 @@ body::-webkit-scrollbar {
     }
 
     .faq__row {
+        flex-direction: column;
+    }
+
+    .faq_buttons {
         flex-direction: column;
     }
 
